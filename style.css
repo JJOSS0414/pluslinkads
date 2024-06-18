@@ -61,7 +61,7 @@ header {
 }
 
 header small {
-    font-size: 1em;
+    font-size: 4em;
     font-weight: bold;
     color: #00FFB3;
 }
@@ -377,6 +377,33 @@ img {
 #floating-telegram-button:hover {
     background-color: #00cc92;
 }
+
+/* 추가된 푸터 스타일 */
+footer {
+    width: 100%;
+    background-color: #0d1117;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+}
+
+.footer-content {
+    color: #c9d1d9;
+    font-size: 1em;
+}
+
+.footer-line {
+    width: 80%;
+    margin: 10px auto;
+    border-top: 1px solid #c9d1d9;
+}
+
+.footer-copyright {
+    color: #c9d1d9;
+    font-size: 0.9em;
+}
+
 
 /* 반응형 디자인 */
 @media (max-width: 768px) {
